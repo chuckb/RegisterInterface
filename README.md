@@ -1,5 +1,4 @@
-[![Release](https://jitpack.io/v/chuckstechtalk/RegisterInterface.svg)]
-(https://jitpack.io/#chuckstechtalk/RegisterInterface)
+[![](https://jitpack.io/v/com.chuckstechtalk/RegisterInterface.svg)](https://jitpack.io/#com.chuckstechtalk/RegisterInterface)
 
 # Register Interface Class for Alchitry FPGA - Java
 
