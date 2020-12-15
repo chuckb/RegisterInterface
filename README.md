@@ -35,3 +35,7 @@ reg.connect("COMx", 1000000);
 // Write the value 10 to register 1
 reg.write(1, 10);
 ```
+
+## Dependencies
+
+This lib uses the [jssc serial library](https://github.com/java-native/jssc) and it is automatically included as a dependency, so you should not need to do so in your project. This caveat is here because I am not sure if all native binaries are included in the resulting dist jar. Certainly the on the target in which your app is built, the jars will include the appropriate native binaries.
