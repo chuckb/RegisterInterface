@@ -6,6 +6,8 @@ This is a library sourced from the [Alchitry Labs site](https://alchitry.com/blo
 
 It has been tested to work on Windows 10 and should work on [OSX with some workarounds](https://forum.alchitry.com/thread-264.html?highlight=mac).
 
+See [Javadocs.](https://jitpack.io/com/chuckstechtalk/RegisterInterface/latest/javadoc/)
+
 ## Usage
 
 In your build.gradle file:
