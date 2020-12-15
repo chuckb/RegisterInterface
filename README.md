@@ -1,5 +1,5 @@
-[![Release](https://jitpack.io/v/chuckb/RegisterInterface.svg)]
-(https://jitpack.io/#chuckb/RegisterInterface)
+[![Release](https://jitpack.io/v/chuckstechtalk/RegisterInterface.svg)]
+(https://jitpack.io/#chuckstechtalk/RegisterInterface)
 
 # Register Interface Class for Alchitry FPGA - Java
 
@@ -18,7 +18,7 @@ allprojects {
     }
 }
 dependencies {
-    implementation 'com.chuckstechtalk:RegisterInterface:1.0.0'
+    implementation 'com.chuckstechtalk:RegisterInterface:1.+'
 }
 ```
 
@@ -31,4 +31,6 @@ Finally, instantiate:
 ```Java
 RegisterInterface reg = new RegisterInterface();
 reg.connect("COMx", 1000000);
+// Write the value 10 to register 1
+reg.write(1, 10);
 ```
