@@ -14,7 +14,7 @@ plugins {
 
 dependencies {
     // Serial port lib for register interface communication
-    implementation 'io.github.java-native:jssc:2.9.2'    
+    api 'io.github.java-native:jssc:2.9.2'    
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
